@@ -19,6 +19,7 @@
 		DD29961124B0D7B6000F3A12 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961024B0D7B6000F3A12 /* StringUtils.swift */; };
 		DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */; };
 		DD29961524B1047F000F3A12 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961424B1047F000F3A12 /* AccountBalance.swift */; };
+		DD29961724B10761000F3A12 /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DD29961024B0D7B6000F3A12 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
 		DD29961424B1047F000F3A12 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +126,10 @@
 		DD2995F624B0D1D0000F3A12 /* Study-UnitTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD2995F924B0D1D0000F3A12 /* Info.plist */,
 				DD2995F724B0D1D0000F3A12 /* Study_UnitTestTests.swift */,
 				DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */,
-				DD2995F924B0D1D0000F3A12 /* Info.plist */,
+				DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */,
 			);
 			path = "Study-UnitTestTests";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */,
 				DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */,
+				DD29961724B10761000F3A12 /* AccountBalanceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
