@@ -16,6 +16,9 @@
 		DD2995ED24B0D1D0000F3A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2995EB24B0D1D0000F3A12 /* LaunchScreen.storyboard */; };
 		DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995F724B0D1D0000F3A12 /* Study_UnitTestTests.swift */; };
 		DD29960324B0D1D0000F3A12 /* Study_UnitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29960224B0D1D0000F3A12 /* Study_UnitTestUITests.swift */; };
+		DD29961124B0D7B6000F3A12 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961024B0D7B6000F3A12 /* StringUtils.swift */; };
+		DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */; };
+		DD29961524B1047F000F3A12 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961424B1047F000F3A12 /* AccountBalance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		DD2995FE24B0D1D0000F3A12 /* Study-UnitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study-UnitTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD29960224B0D1D0000F3A12 /* Study_UnitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_UnitTestUITests.swift; sourceTree = "<group>"; };
 		DD29960424B0D1D0000F3A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD29961024B0D7B6000F3A12 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
+		DD29961424B1047F000F3A12 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 				DD2995EB24B0D1D0000F3A12 /* LaunchScreen.storyboard */,
 				DD2995EE24B0D1D0000F3A12 /* Info.plist */,
 				DD2995E624B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld */,
+				DD29961024B0D7B6000F3A12 /* StringUtils.swift */,
+				DD29961424B1047F000F3A12 /* AccountBalance.swift */,
 			);
 			path = "Study-UnitTest";
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2995F724B0D1D0000F3A12 /* Study_UnitTestTests.swift */,
+				DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */,
 				DD2995F924B0D1D0000F3A12 /* Info.plist */,
 			);
 			path = "Study-UnitTestTests";
@@ -263,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2995E224B0D1CE000F3A12 /* ViewController.swift in Sources */,
+				DD29961124B0D7B6000F3A12 /* StringUtils.swift in Sources */,
 				DD2995DE24B0D1CE000F3A12 /* AppDelegate.swift in Sources */,
 				DD2995E024B0D1CE000F3A12 /* SceneDelegate.swift in Sources */,
+				DD29961524B1047F000F3A12 /* AccountBalance.swift in Sources */,
 				DD2995E824B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */,
+				DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32PZ55D4SZ;
+				DEVELOPMENT_TEAM = C8Q9PQS2B8;
 				INFOPLIST_FILE = "Study-UnitTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 32PZ55D4SZ;
+				DEVELOPMENT_TEAM = C8Q9PQS2B8;
 				INFOPLIST_FILE = "Study-UnitTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
