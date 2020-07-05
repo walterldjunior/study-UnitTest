@@ -12,10 +12,19 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let accountViewController = AccountViewController()
+        accountViewController.viewModel = AccountViewModel(shouldserLocation: true)
+            
+        window = UIWindow(frame: UIScreen.main.bounds)
+        //         window?.windowScene = windowScene
+        window?.rootViewController = UINavigationController(rootViewController: AccountViewController())
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

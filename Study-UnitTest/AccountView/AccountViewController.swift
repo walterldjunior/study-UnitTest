@@ -9,7 +9,6 @@
 import UIKit
 
 class AccountViewController: UIViewController {
-
    var viewModel: AccountViewModelProtocol?
 
        override func viewDidLoad() {
@@ -27,6 +26,9 @@ class AccountViewController: UIViewController {
        }
 
     @IBAction func loginButton(_ sender: Any) {
-        print("LoginButton")
+        debugPrint("LoginButton")
+        
+        viewModel?.loginButtonTap()
+        
     }
 }

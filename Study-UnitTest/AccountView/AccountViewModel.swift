@@ -24,7 +24,7 @@ class AccountViewModel: AccountViewModelProtocol {
     }
     
     func loginButtonTap() {
-        print("Login Realizado com sucesso!")
+        debugPrint("Login Realizado com sucesso!")
     }
     
     func shouldRequestLocation(showAlert: () -> (),
