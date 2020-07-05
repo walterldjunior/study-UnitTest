@@ -11,11 +11,12 @@
 		B0011BA168422DF50E8F583C /* Pods_Study_UnitTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E789EA094AB5B415BD7D0DB /* Pods_Study_UnitTestTests.framework */; };
 		C8DD109B4E43A23780364EA0 /* Pods_Study_UnitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF9AC88F8E13F967B988B6A /* Pods_Study_UnitTest.framework */; };
 		DD155B7F24B25E6100AAA7DE /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */; };
+		DD155B9624B2741700AAA7DE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B9524B2741700AAA7DE /* AccountViewController.swift */; };
+		DD155B9824B2746000AAA7DE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B9724B2746000AAA7DE /* AccountViewModel.swift */; };
 		DD2995DE24B0D1CE000F3A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995DD24B0D1CE000F3A12 /* AppDelegate.swift */; };
 		DD2995E024B0D1CE000F3A12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995DF24B0D1CE000F3A12 /* SceneDelegate.swift */; };
 		DD2995E224B0D1CE000F3A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995E124B0D1CE000F3A12 /* ViewController.swift */; };
 		DD2995E524B0D1CE000F3A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2995E324B0D1CE000F3A12 /* Main.storyboard */; };
-		DD2995E824B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD2995E624B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld */; };
 		DD2995EA24B0D1D0000F3A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2995E924B0D1D0000F3A12 /* Assets.xcassets */; };
 		DD2995ED24B0D1D0000F3A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2995EB24B0D1D0000F3A12 /* LaunchScreen.storyboard */; };
 		DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995F724B0D1D0000F3A12 /* Study_UnitTestTests.swift */; };
@@ -54,12 +55,13 @@
 		AF9DCC51043175C9B6326130 /* Pods-Study-UnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study-UnitTestTests.debug.xcconfig"; path = "Target Support Files/Pods-Study-UnitTestTests/Pods-Study-UnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFF9AC88F8E13F967B988B6A /* Pods_Study_UnitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_UnitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
+		DD155B9524B2741700AAA7DE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		DD155B9724B2746000AAA7DE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		DD2995DA24B0D1CE000F3A12 /* Study-UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-UnitTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2995DD24B0D1CE000F3A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2995DF24B0D1CE000F3A12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD2995E124B0D1CE000F3A12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD2995E424B0D1CE000F3A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD2995E724B0D1CE000F3A12 /* Study_UnitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Study_UnitTest.xcdatamodel; sourceTree = "<group>"; };
 		DD2995E924B0D1D0000F3A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2995EC24B0D1D0000F3A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2995EE24B0D1D0000F3A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +128,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DD155B9424B273DA00AAA7DE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				DD155B9524B2741700AAA7DE /* AccountViewController.swift */,
+				DD155B9724B2746000AAA7DE /* AccountViewModel.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		DD155B9924B274AE00AAA7DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD29961024B0D7B6000F3A12 /* StringUtils.swift */,
+				DD29961424B1047F000F3A12 /* AccountBalance.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DD2995D124B0D1CE000F3A12 = {
 			isa = PBXGroup;
 			children = (
@@ -154,13 +174,12 @@
 				DD2995DD24B0D1CE000F3A12 /* AppDelegate.swift */,
 				DD2995DF24B0D1CE000F3A12 /* SceneDelegate.swift */,
 				DD2995E124B0D1CE000F3A12 /* ViewController.swift */,
+				DD155B9424B273DA00AAA7DE /* AccountView */,
+				DD155B9924B274AE00AAA7DE /* Utils */,
 				DD2995E324B0D1CE000F3A12 /* Main.storyboard */,
-				DD2995E924B0D1D0000F3A12 /* Assets.xcassets */,
 				DD2995EB24B0D1D0000F3A12 /* LaunchScreen.storyboard */,
 				DD2995EE24B0D1D0000F3A12 /* Info.plist */,
-				DD2995E624B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld */,
-				DD29961024B0D7B6000F3A12 /* StringUtils.swift */,
-				DD29961424B1047F000F3A12 /* AccountBalance.swift */,
+				DD2995E924B0D1D0000F3A12 /* Assets.xcassets */,
 			);
 			path = "Study-UnitTest";
 			sourceTree = "<group>";
@@ -408,11 +427,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2995E224B0D1CE000F3A12 /* ViewController.swift in Sources */,
+				DD155B9824B2746000AAA7DE /* AccountViewModel.swift in Sources */,
 				DD29961124B0D7B6000F3A12 /* StringUtils.swift in Sources */,
+				DD155B9624B2741700AAA7DE /* AccountViewController.swift in Sources */,
 				DD2995DE24B0D1CE000F3A12 /* AppDelegate.swift in Sources */,
 				DD2995E024B0D1CE000F3A12 /* SceneDelegate.swift in Sources */,
 				DD29961524B1047F000F3A12 /* AccountBalance.swift in Sources */,
-				DD2995E824B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,19 +770,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DD2995E624B0D1CE000F3A12 /* Study_UnitTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DD2995E724B0D1CE000F3A12 /* Study_UnitTest.xcdatamodel */,
-			);
-			currentVersion = DD2995E724B0D1CE000F3A12 /* Study_UnitTest.xcdatamodel */;
-			path = Study_UnitTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DD2995D224B0D1CE000F3A12 /* Project object */;
 }
