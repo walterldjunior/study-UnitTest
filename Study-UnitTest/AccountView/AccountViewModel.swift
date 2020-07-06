@@ -13,13 +13,27 @@ protocol AccountViewModelProtocol {
     func shouldRequestLocation(showAlert: () -> (),
                                askUserPermission: () -> (),
                                completion: () -> ())
+    var status: String { get set }
 }
 
 class AccountViewModel: AccountViewModelProtocol {
     private let shouldUserLocation: Bool
+    private let provider: ProviderProtocol
+    var status: String
     
-    init(shouldUserLocation: Bool) {
+    init(shouldUserLocation: Bool, provider: ProviderProtocol = Provider()) {
         self.shouldUserLocation = shouldUserLocation
+        self.provider = provider
+    }
+    
+    func getJoke() {
+        provider.getJoke { result, error in
+            if error != nil {
+                self.status = "Error"
+                return
+            }
+            self.status = result![0]
+        }
     }
     
     func loginButtonTap() {

@@ -26,6 +26,10 @@
 		DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */; };
 		DD29961524B1047F000F3A12 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961424B1047F000F3A12 /* AccountBalance.swift */; };
 		DD29961724B10761000F3A12 /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */; };
+		DDF3A50A24B2BC0500AED859 /* AsyncProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3A50924B2BC0500AED859 /* AsyncProcess.swift */; };
+		DDF3A50C24B2BD0600AED859 /* AsyncProcessSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3A50B24B2BD0600AED859 /* AsyncProcessSpecs.swift */; };
+		DDF3A50E24B2C50000AED859 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3A50D24B2C50000AED859 /* Provider.swift */; };
+		DDF3A51024B2C7E700AED859 /* ProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3A50F24B2C7E700AED859 /* ProviderMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
 		DD29961424B1047F000F3A12 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
 		DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
+		DDF3A50924B2BC0500AED859 /* AsyncProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncProcess.swift; sourceTree = "<group>"; };
+		DDF3A50B24B2BD0600AED859 /* AsyncProcessSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncProcessSpecs.swift; sourceTree = "<group>"; };
+		DDF3A50D24B2C50000AED859 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		DDF3A50F24B2C7E700AED859 /* ProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,8 @@
 			children = (
 				DD29961024B0D7B6000F3A12 /* StringUtils.swift */,
 				DD29961424B1047F000F3A12 /* AccountBalance.swift */,
+				DDF3A50924B2BC0500AED859 /* AsyncProcess.swift */,
+				DDF3A50D24B2C50000AED859 /* Provider.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -195,6 +205,8 @@
 				DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */,
 				DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */,
 				DD155B9A24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift */,
+				DDF3A50B24B2BD0600AED859 /* AsyncProcessSpecs.swift */,
+				DDF3A50F24B2C7E700AED859 /* ProviderMock.swift */,
 			);
 			path = "Study-UnitTestTests";
 			sourceTree = "<group>";
@@ -431,7 +443,9 @@
 			files = (
 				DD2995E224B0D1CE000F3A12 /* ViewController.swift in Sources */,
 				DD155B9824B2746000AAA7DE /* AccountViewModel.swift in Sources */,
+				DDF3A50A24B2BC0500AED859 /* AsyncProcess.swift in Sources */,
 				DD29961124B0D7B6000F3A12 /* StringUtils.swift in Sources */,
+				DDF3A50E24B2C50000AED859 /* Provider.swift in Sources */,
 				DD155B9624B2741700AAA7DE /* AccountViewController.swift in Sources */,
 				DD2995DE24B0D1CE000F3A12 /* AppDelegate.swift in Sources */,
 				DD2995E024B0D1CE000F3A12 /* SceneDelegate.swift in Sources */,
@@ -444,8 +458,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD155B7F24B25E6100AAA7DE /* StringUtilsTests.swift in Sources */,
+				DDF3A51024B2C7E700AED859 /* ProviderMock.swift in Sources */,
 				DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */,
 				DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */,
+				DDF3A50C24B2BD0600AED859 /* AsyncProcessSpecs.swift in Sources */,
 				DD29961724B10761000F3A12 /* AccountBalanceSpec.swift in Sources */,
 				DD155B9B24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift in Sources */,
 			);

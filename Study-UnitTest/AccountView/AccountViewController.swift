@@ -10,24 +10,20 @@ import UIKit
 
 class AccountViewController: UIViewController {
     var viewModel: AccountViewModelProtocol = AccountViewModel(shouldUserLocation: true)
-
-       override func viewDidLoad() {
-           super.viewDidLoad()
-           
-           print("Up!")
-           
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         viewModel.shouldRequestLocation(showAlert: {
-               print("Alerta")
-           }, askUserPermission: {
-               print("Get user Location")
-           }, completion: {
-               print("Completion")
-           })
-       }
-
+            print("Alerta")
+        }, askUserPermission: {
+            print("Get user Location")
+        }, completion: {
+            print("Completion")
+        })
+    }
+    
     @IBAction func loginButton(_ sender: Any) {
         debugPrint("LoginButton")
-        
         viewModel.loginButtonTap()
     }
 }
