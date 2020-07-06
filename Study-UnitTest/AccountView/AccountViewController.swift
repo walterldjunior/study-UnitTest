@@ -9,14 +9,14 @@
 import UIKit
 
 class AccountViewController: UIViewController {
-   var viewModel: AccountViewModelProtocol?
+    var viewModel: AccountViewModelProtocol = AccountViewModel(shouldUserLocation: true)
 
        override func viewDidLoad() {
            super.viewDidLoad()
            
            print("Up!")
            
-           viewModel?.shouldRequestLocation(showAlert: {
+        viewModel.shouldRequestLocation(showAlert: {
                print("Alerta")
            }, askUserPermission: {
                print("Get user Location")
@@ -28,6 +28,6 @@ class AccountViewController: UIViewController {
     @IBAction func loginButton(_ sender: Any) {
         debugPrint("LoginButton")
         
-        viewModel?.loginButtonTap()
+        viewModel.loginButtonTap()
     }
 }
