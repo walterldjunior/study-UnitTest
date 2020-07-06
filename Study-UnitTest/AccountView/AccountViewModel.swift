@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 protocol AccountViewModelProtocol {
     func loginButtonTap()
     func shouldRequestLocation(showAlert: () -> (),
@@ -17,10 +16,10 @@ protocol AccountViewModelProtocol {
 }
 
 class AccountViewModel: AccountViewModelProtocol {
-    private let shouldserLocation: Bool
+    private let shouldUserLocation: Bool
     
-    init(shouldserLocation: Bool) {
-        self.shouldserLocation = shouldserLocation
+    init(shouldUserLocation: Bool) {
+        self.shouldUserLocation = shouldUserLocation
     }
     
     func loginButtonTap() {
@@ -31,7 +30,7 @@ class AccountViewModel: AccountViewModelProtocol {
                                askUserPermission: () -> (),
                                completion: () -> ()) {
         
-        if shouldserLocation {
+        if shouldUserLocation {
             askUserPermission()
             completion()
         }

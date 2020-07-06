@@ -29,6 +29,5 @@ class AccountViewController: UIViewController {
         debugPrint("LoginButton")
         
         viewModel?.loginButtonTap()
-        
     }
 }
