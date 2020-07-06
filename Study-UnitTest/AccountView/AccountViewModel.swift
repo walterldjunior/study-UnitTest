@@ -34,7 +34,6 @@ class AccountViewModel: AccountViewModelProtocol {
             askUserPermission()
             completion()
         }
-        
         showAlert()
         completion()
     }

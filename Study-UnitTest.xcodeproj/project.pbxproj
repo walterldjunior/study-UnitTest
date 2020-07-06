@@ -13,6 +13,7 @@
 		DD155B7F24B25E6100AAA7DE /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */; };
 		DD155B9624B2741700AAA7DE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B9524B2741700AAA7DE /* AccountViewController.swift */; };
 		DD155B9824B2746000AAA7DE /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B9724B2746000AAA7DE /* AccountViewModel.swift */; };
+		DD155B9B24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD155B9A24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift */; };
 		DD2995DE24B0D1CE000F3A12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995DD24B0D1CE000F3A12 /* AppDelegate.swift */; };
 		DD2995E024B0D1CE000F3A12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995DF24B0D1CE000F3A12 /* SceneDelegate.swift */; };
 		DD2995E224B0D1CE000F3A12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2995E124B0D1CE000F3A12 /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
 		DD155B9524B2741700AAA7DE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		DD155B9724B2746000AAA7DE /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DD155B9A24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModelSpecs.swift; sourceTree = "<group>"; };
 		DD2995DA24B0D1CE000F3A12 /* Study-UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-UnitTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2995DD24B0D1CE000F3A12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2995DF24B0D1CE000F3A12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				DD29961224B0FAAC000F3A12 /* StringUtilsSpec.swift */,
 				DD29961624B10761000F3A12 /* AccountBalanceSpec.swift */,
 				DD155B7E24B25E6100AAA7DE /* StringUtilsTests.swift */,
+				DD155B9A24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift */,
 			);
 			path = "Study-UnitTestTests";
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				DD2995F824B0D1D0000F3A12 /* Study_UnitTestTests.swift in Sources */,
 				DD29961324B0FAAC000F3A12 /* StringUtilsSpec.swift in Sources */,
 				DD29961724B10761000F3A12 /* AccountBalanceSpec.swift in Sources */,
+				DD155B9B24B2ACBF00AAA7DE /* AccountViewModelSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
