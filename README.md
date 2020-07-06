@@ -8,3 +8,13 @@ Documento de apoio: https://docs.google.com/document/d/12B4G8YtE4WjmMTFMNPqYjN27
 
 Documentação oficial: https://developer.apple.com/documentation/xctest
 
+
+TDD - Desenvolvimento Orientado por Testes (Test Driven Development): https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533
+
+
+FRAMESWORKS DE TESTES:
+
+Nimble: https://github.com/Quick/Nimble
+
+Quick: https://github.com/Quick/Quick
+
