@@ -24,6 +24,7 @@ class AccountViewModel: AccountViewModelProtocol {
     init(shouldUserLocation: Bool, provider: ProviderProtocol = Provider()) {
         self.shouldUserLocation = shouldUserLocation
         self.provider = provider
+        self.status = ""
     }
     
     func getJoke() {

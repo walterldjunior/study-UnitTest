@@ -48,6 +48,15 @@ class AccountViewModelSpecs: QuickSpec {
                     expect(sut).to(beAKindOf(AccountViewModelProtocol.self))
                 }
             }
+            
+            context("Get Joke") {
+                it("With Error"){
+                    sut = AccountViewModel(shouldUserLocation: true,
+                                           provider: ProviderMock(status: .invalidResponse))
+                    sut.getJoke()
+                    expect(sut.status).to(equal("Error"))
+                }
+            }
         }
     }
 }
